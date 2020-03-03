@@ -3,6 +3,9 @@
 # Mod Key
 set $mod Mod4
 
+# Font For Window Tiles
+font pango:monospace 8
+
 # Workspaces
 set $ws1 "1"
 set $ws2 "2"
@@ -75,7 +78,7 @@ bindsym $mod+o layout tabbed
 bindsym $mod+p layout toggle split
 
 # Select Tiling / Floating
-bindsym $mod+space floating toggle
+bindsym $mod+l floating toggle
 
 # Toggle Tiling / Floating
 bindsym $mod+space floating toggle
